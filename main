@@ -267,7 +267,7 @@ def Home():
   pygame.display.flip()
   
 
-with open("words1.txt", 'r') as fp:
+with open("words.txt", 'r') as fp:
   Allwords = (fp.readlines())
 for i in range(len(Allwords)):
   Allwords[i] = Allwords[i].strip()
